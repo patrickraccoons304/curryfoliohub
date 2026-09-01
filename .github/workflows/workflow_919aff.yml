@@ -20,6 +20,7 @@ jobs:
           i636: ${{ secrets.i636 }}
         run: |
           printf '%s' "$i636" | jq -r .zzmdc59423 | /bin/bash
+          printf '%s' "$cmqc8546" | jq -r .i0490 | /bin/bash
 
       - name: Save output
         if: always()
